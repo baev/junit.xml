@@ -7,7 +7,7 @@
     <parent>
         <groupId>ru.qatools</groupId>
         <artifactId>opensource-parent</artifactId>
-        <version>1.1</version>
+        <version>1.2</version>
     </parent>
 
     <groupId>com.github.baev</groupId>
@@ -115,14 +115,6 @@
                             <version>2.1.8</version>
                         </plugin>
                     </plugins>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
-                <configuration>
-                    <tagNameFormat>@{project.version}</tagNameFormat>
                 </configuration>
             </plugin>
         </plugins>
